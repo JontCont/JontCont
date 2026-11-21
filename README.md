@@ -14,6 +14,9 @@
   <a href="https://blog.startfms.uk/">
     <img src="https://img.shields.io/badge/BLOG-38BDF8?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" />
   </a>
+  <a href="https://discord.gg/JbzpfqGJDF">
+    <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+  </a>
   <a href="mailto:johncont99688@gmail.com">
     <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
