@@ -79,18 +79,6 @@
 
 <br />
 
-### Contribution Graph. 🐍
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JontCont/JontCont/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JontCont/JontCont/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/JontCont/JontCont/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
-<br />
-
 <!-- Colorful Wave Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:8b5cf6,100:ec4899&height=110&section=footer" width="100%" alt="Footer Wave" />
