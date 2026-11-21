@@ -155,8 +155,8 @@
     <!-- Spaced Role Tagline -->
     <text x="450" y="168" text-anchor="middle" fill="#E0F2FE"
           font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
-          font-size="13.5" font-weight="600" letter-spacing="2.8">
-      FULL-STACK  |  CLOUD &amp; DX  |  AI WORKFLOWS
+          font-size="13.5" font-weight="600" letter-spacing="2.4">
+      C# / .NET  |  ANGULAR  |  AZURE CLOUD  |  ENTERPRISE AI (RAG)
     </text>
   </g>
 </svg>

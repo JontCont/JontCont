@@ -14,6 +14,9 @@
   <a href="https://blog.startfms.uk/">
     <img src="https://img.shields.io/badge/BLOG-38BDF8?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" />
   </a>
+  <a href="https://www.linkedin.com/in/%E5%9C%8B%E5%8B%9B-%E9%A6%AC-760860201/">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
   <a href="https://discord.gg/JbzpfqGJDF">
     <img src="https://img.shields.io/badge/DISCORD-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
   </a>
@@ -31,12 +34,12 @@
 
 <img align="right" width="215" src="./assets/side-art.svg" alt="JontCont Terminal Art" />
 
-- 👋 Hi, I'm **John Conte** (`@JontCont`) — a developer who loves building clean, pragmatic software.
-- 💻 **Focus:** Full-stack web apps, APIs, automation & developer-friendly tooling.
-- 🌱 **Currently Exploring:** System design, AI workflows & cloud-native architecture.
-- 🛠️ **Currently Working On:** Personal productivity tools & open-source experiments.
-- 📝 **Writing:** Sharing notes & builds on my blog — [blog.startfms.uk](https://blog.startfms.uk/).
-- ☕ **Support:** If my work helps you, feel free to [buy me a coffee](https://portaly.cc/startfms5/support)!
+- 👋 Hi, I'm **John Conte** (`@JontCont`) — a full-stack software engineer focused on **C# / .NET**, **Angular**, **Azure Cloud**, and **Enterprise Generative AI (RAG & AI Agents)**.
+- 🏭 **Smart Manufacturing:** Built **MES / ERP / WMS / SCM** integrations, PLC & IoT data collection, and real-time OEE factory dashboards.
+- 🛒 **High-Concurrency E-Commerce:** Scaled **17Life (17APP)** backend APIs, promotions, and **SQL Server** query & stored-procedure performance.
+- 🏦 **FinTech & Banking:** Engineered **.NET 6 + Angular** merchant acquiring systems (TCB ABMS, TWPay/EasyCard) & **KGI Bank** next-gen online banking core APIs with **Playwright** E2E automation.
+- 🏥 **Healthcare & Enterprise AI:** Developed clinical **HIS** workflows (Shin Kong Hospital) and **AIP Enterprise RAG** platforms using **Azure AI Search**, **Document Intelligence**, **Semantic Kernel**, and **LangChain**.
+- 📝 **Tech Blog:** Sharing 290+ engineering notes & architecture deep dives at [blog.startfms.uk](https://blog.startfms.uk/).
 - 📫 **Reach Me:** [johncont99688@gmail.com](mailto:johncont99688@gmail.com)
 
 <br clear="right" />
@@ -45,15 +48,12 @@
 ### Tech Stack. 🧰
 
 <p>
-  <img src="https://skillicons.dev/icons?i=ts,js,py,go,react,nextjs,tailwind,nodejs,fastapi,postgres,redis,docker,githubactions,linux,git&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,angular,py,html,css,azure,docker,git,githubactions,playwright,linux,vscode,postman&perline=8" alt="Tech Stack" />
 </p>
 
-<br />
-
-### Featured Projects. ✨
-
-- 📦 **[Project Alpha](https://github.com/JontCont)** — *A brief one-liner describing what this project solves and why it's cool.* (`TypeScript` · `Next.js` · `PostgreSQL`)
-- ⚡ **[Project Beta](https://github.com/JontCont)** — *A CLI or automation tool that streamlines daily developer workflows.* (`Python` · `FastAPI` · `Docker`)
+<p>
+  <code>ASP.NET Web API</code> · <code>EF Core</code> · <code>Dapper</code> · <code>SQL Server (T-SQL)</code> · <code>RxJS</code> · <code>Clean Architecture</code> · <code>Azure AI Search</code> · <code>Document Intelligence</code> · <code>Azure Functions</code> · <code>Semantic Kernel</code> · <code>LangChain</code>
+</p>
 
 <br />
 
