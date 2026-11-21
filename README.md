@@ -70,10 +70,7 @@
 
 <p align="center">
   <a href="https://github.com/JontCont">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JontCont&layout=compact&theme=tokyonight&bg_color=0D1117&border_color=30363D&title_color=38BDF8&text_color=C9D1D9" alt="Top Languages" />
-  </a>
-  <a href="https://github.com/JontCont">
-    <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JontCont&theme=tokyonight" alt="Profile Summary" />
+    <img height="175" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JontCont&theme=tokyonight" alt="Profile Summary" />
   </a>
 </p>
 
