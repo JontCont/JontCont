@@ -48,7 +48,7 @@
 ### Tech Stack. 🧰
 
 <p>
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,angular,py,html,css,azure,docker,git,githubactions,playwright,linux,vscode,postman&perline=8" alt="Tech Stack" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,js,py,go,html,css,angular,react,nextjs,tailwind,nodejs,fastapi,postgres,redis,azure,docker,git,githubactions,playwright,linux,vscode,postman&perline=8" alt="Tech Stack" />
 </p>
 
 <p>
