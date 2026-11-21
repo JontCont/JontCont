@@ -30,7 +30,7 @@
         <li>📚 <strong>Deep Dive:</strong> <em><!-- Add what you're learning -->Distributed systems &amp; TypeScript internals</em></li>
         <li>🤝 <strong>Open To:</strong> Open-source collaboration &amp; interesting side projects</li>
         <li>📝 <strong>Blog:</strong> <a href="https://blog.startfms.uk/">blog.startfms.uk</a></li>
-        <li>📫 <strong>Reach Me:</strong> <a href="mailto:information9527@gmail.com">information9527@gmail.com</a></li>
+        <li>📫 <strong>Reach Me:</strong> <a href="mailto:johncont99688@gmail.com">johncont99688@gmail.com</a></li>
       </ul>
     </td>
   </tr>
@@ -141,7 +141,7 @@
   <a href="https://blog.startfms.uk/">
     <img src="https://img.shields.io/badge/Blog-38BDF8?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" />
   </a>
-  <a href="mailto:information9527@gmail.com">
+  <a href="mailto:johncont99688@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://portaly.cc/startfms5/support">
