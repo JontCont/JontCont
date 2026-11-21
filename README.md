@@ -60,17 +60,13 @@
 ### Stats. 📊
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img height="170" src="https://streak-stats.demolab.com?user=JontCont&theme=tokyonight&background=0D1117&border=30363D&ring=38BDF8&fire=EC4899&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" />
-  </a>
-  <a href="https://github.com/JontCont">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=JontCont&show_icons=true&theme=tokyonight&bg_color=0D1117&border_color=30363D&title_color=38BDF8&icon_color=A855F7&text_color=C9D1D9" alt="GitHub Stats" />
-  </a>
+  <a href="https://git.io/streak-stats"><img width="49%" src="https://streak-stats.demolab.com?user=JontCont&theme=tokyonight&background=0D1117&border=30363D&ring=38BDF8&fire=EC4899&currStreakLabel=38BDF8&sideLabels=C9D1D9&dates=8B949E" alt="GitHub Streak" /></a>
+  <a href="https://github.com/JontCont"><img width="48%" src="https://github-readme-stats.vercel.app/api?username=JontCont&show_icons=true&theme=tokyonight&bg_color=0D1117&border_color=30363D&title_color=38BDF8&icon_color=A855F7&text_color=C9D1D9" alt="GitHub Stats" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/JontCont">
-    <img height="175" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JontCont&theme=tokyonight" alt="Profile Summary" />
+    <img width="97%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JontCont&theme=tokyonight" alt="Profile Summary" />
   </a>
 </p>
 
