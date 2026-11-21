@@ -1,0 +1,52 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.32"/>
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accentBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#EC4899"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Soft Aura -->
+  <circle cx="120" cy="120" r="110" fill="url(#aura)"/>
+
+  <!-- Orbit Ring -->
+  <ellipse cx="120" cy="126" rx="96" ry="30" transform="rotate(-14 120 126)" stroke="#38BDF8" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="5 5"/>
+
+  <!-- Floating Holo Terminal Card -->
+  <g transform="translate(30, 36)">
+    <animateTransform attributeName="transform" type="translate" values="30 36; 30 28; 30 36" dur="4s" repeatCount="indefinite"/>
+    <rect x="0" y="0" width="180" height="156" rx="14" fill="url(#cardBg)" stroke="url(#accentBorder)" stroke-width="1.8"/>
+    <!-- Window Bar -->
+    <circle cx="18" cy="18" r="4" fill="#F87171"/>
+    <circle cx="32" cy="18" r="4" fill="#FBBF24"/>
+    <circle cx="46" cy="18" r="4" fill="#34D399"/>
+    <text x="164" y="21" text-anchor="end" fill="#94A3B8" font-family="ui-monospace, Menlo, monospace" font-size="9.5">~/jontcont</text>
+    <line x1="0" y1="32" x2="180" y2="32" stroke="#334155" stroke-width="1"/>
+
+    <!-- Code Lines -->
+    <text x="16" y="56" fill="#38BDF8" font-family="ui-monospace, Menlo, monospace" font-size="11">$ whoami</text>
+    <text x="16" y="74" fill="#E2E8F0" font-family="ui-monospace, Menlo, monospace" font-size="11">John Conte</text>
+
+    <text x="16" y="100" fill="#38BDF8" font-family="ui-monospace, Menlo, monospace" font-size="11">$ status</text>
+    <text x="16" y="118" fill="#A78BFA" font-family="ui-monospace, Menlo, monospace" font-size="11">Shipping ideas</text>
+    <text x="16" y="136" fill="#F472B6" font-family="ui-monospace, Menlo, monospace" font-size="11">&amp; clean code ✨</text>
+  </g>
+
+  <!-- Orbiting Dot -->
+  <circle cx="206" cy="100" r="4.5" fill="#F472B6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="36" cy="152" r="3.5" fill="#38BDF8">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

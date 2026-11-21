@@ -1,88 +1,162 @@
-<svg width="860" height="200" viewBox="0 0 860 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0" y1="0" x2="860" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0D1117"/>
-      <stop offset="55%" stop-color="#131924"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+    <!-- Cosmic Synthwave Background -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090D24"/>
+      <stop offset="38%" stop-color="#1E1B4B"/>
+      <stop offset="70%" stop-color="#4C1D95"/>
+      <stop offset="100%" stop-color="#0F172A"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#C084FC"/>
+
+    <radialGradient id="auroraCenter" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.42"/>
+      <stop offset="55%" stop-color="#EC4899" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#090D24" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="planetLeft" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0%" stop-color="#A5F3FC"/>
+      <stop offset="45%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </radialGradient>
+
+    <radialGradient id="planetRight" cx="0.35" cy="0.35" r="0.65">
+      <stop offset="0%" stop-color="#F9A8D4"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#311068"/>
+    </radialGradient>
+
+    <linearGradient id="gridFade" x1="0" y1="150" x2="0" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.05"/>
+      <stop offset="45%" stop-color="#EC4899" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.75"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="0.82" cy="0.28" r="0.45">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0.18" cy="0.82" r="0.42">
-      <stop offset="0%" stop-color="#818CF8" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#30363D" stroke-width="0.6" stroke-opacity="0.45"/>
-    </pattern>
-    <clipPath id="cardClip">
-      <rect x="1" y="1" width="858" height="198" rx="16"/>
+
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#F472B6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="bannerClip">
+      <rect x="0" y="0" width="900" height="260" rx="14"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#cardClip)">
-    <!-- Base Card -->
-    <rect x="1" y="1" width="858" height="198" rx="16" fill="url(#bgGrad)"/>
-    <rect x="1" y="1" width="858" height="198" rx="16" fill="url(#grid)"/>
-    <rect x="1" y="1" width="858" height="198" rx="16" fill="url(#glow1)"/>
-    <rect x="1" y="1" width="858" height="198" rx="16" fill="url(#glow2)"/>
+  <g clip-path="url(#bannerClip)">
+    <!-- Sky & Aurora -->
+    <rect width="900" height="260" fill="url(#skyGrad)"/>
+    <rect width="900" height="260" fill="url(#auroraCenter)"/>
 
-    <!-- Top Accent Bar -->
-    <rect x="0" y="0" width="860" height="3" fill="url(#accentGrad)"/>
+    <!-- Horizon Glow -->
+    <ellipse cx="450" cy="175" rx="380" ry="38" fill="#EC4899" fill-opacity="0.18" filter="url(#softGlow)"/>
 
-    <!-- Decorative Bento Mini-Widgets (Right Side) -->
-    <g transform="translate(618, 30)">
-      <rect x="0" y="0" width="208" height="140" rx="12" fill="#161B22" fill-opacity="0.82" stroke="#30363D" stroke-width="1"/>
-      <!-- Terminal Dots -->
-      <circle cx="16" cy="16" r="4" fill="#F87171" fill-opacity="0.85"/>
-      <circle cx="30" cy="16" r="4" fill="#FBBF24" fill-opacity="0.85"/>
-      <circle cx="44" cy="16" r="4" fill="#34D399" fill-opacity="0.85"/>
-      <text x="192" y="20" text-anchor="end" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="10">profile.json</text>
-      <line x1="0" y1="30" x2="208" y2="30" stroke="#30363D" stroke-width="1"/>
-
-      <!-- Code Lines -->
-      <text x="14" y="52" fill="#79C0FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">"handle"<tspan fill="#8B949E">: </tspan><tspan fill="#A5D6FF">"@JontCont"</tspan><tspan fill="#8B949E">,</tspan></text>
-      <text x="14" y="72" fill="#79C0FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">"focus"<tspan fill="#8B949E">: </tspan><tspan fill="#A5D6FF">"Full-Stack"</tspan><tspan fill="#8B949E">,</tspan></text>
-      <text x="14" y="92" fill="#79C0FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">"craft"<tspan fill="#8B949E">: </tspan><tspan fill="#A5D6FF">"Clean DX"</tspan><tspan fill="#8B949E">,</tspan></text>
-      <text x="14" y="112" fill="#79C0FF" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="11">"openTo"<tspan fill="#8B949E">: </tspan><tspan fill="#7EE787">"Collab"</tspan></text>
+    <!-- Perspective 3D Grid Floor -->
+    <g stroke="url(#gridFade)" stroke-width="1">
+      <!-- Horizontal lines -->
+      <line x1="0" y1="168" x2="900" y2="168" stroke-opacity="0.35"/>
+      <line x1="0" y1="180" x2="900" y2="180" stroke-opacity="0.45"/>
+      <line x1="0" y1="196" x2="900" y2="196" stroke-opacity="0.55"/>
+      <line x1="0" y1="216" x2="900" y2="216" stroke-opacity="0.7"/>
+      <line x1="0" y1="240" x2="900" y2="240" stroke-opacity="0.85"/>
+      <!-- Perspective radial lines from horizon center (450, 145) -->
+      <line x1="450" y1="145" x2="-180" y2="260"/>
+      <line x1="450" y1="145" x2="-40" y2="260"/>
+      <line x1="450" y1="145" x2="80" y2="260"/>
+      <line x1="450" y1="145" x2="185" y2="260"/>
+      <line x1="450" y1="145" x2="280" y2="260"/>
+      <line x1="450" y1="145" x2="368" y2="260"/>
+      <line x1="450" y1="145" x2="450" y2="260"/>
+      <line x1="450" y1="145" x2="532" y2="260"/>
+      <line x1="450" y1="145" x2="620" y2="260"/>
+      <line x1="450" y1="145" x2="715" y2="260"/>
+      <line x1="450" y1="145" x2="820" y2="260"/>
+      <line x1="450" y1="145" x2="940" y2="260"/>
+      <line x1="450" y1="145" x2="1080" y2="260"/>
     </g>
 
-    <!-- Status Pill -->
-    <g transform="translate(36, 32)">
-      <rect x="0" y="0" width="194" height="26" rx="13" fill="#161B22" stroke="#30363D" stroke-width="1"/>
-      <circle cx="15" cy="13" r="4" fill="#34D399">
-        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+    <!-- Twinkling Stars -->
+    <g fill="#FFFFFF">
+      <circle cx="72" cy="36" r="1.5" opacity="0.8">
+        <animate attributeName="opacity" values="0.8;0.2;0.8" dur="3.1s" repeatCount="indefinite"/>
       </circle>
-      <text x="27" y="17" fill="#C9D1D9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="500">Building &amp; Exploring</text>
+      <circle cx="148" cy="74" r="1.2" opacity="0.6"/>
+      <circle cx="230" cy="28" r="1.8" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.3;0.9" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="675" cy="34" r="1.4" opacity="0.75"/>
+      <circle cx="745" cy="68" r="1.1" opacity="0.6"/>
+      <circle cx="842" cy="42" r="1.7" opacity="0.85">
+        <animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.6s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="590" cy="24" r="1.2" opacity="0.7"/>
     </g>
 
-    <!-- Main Name & Tagline -->
-    <text x="36" y="106" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="-0.6">
-      John Conte
-    </text>
-    <text x="36" y="136" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400">
-      Software Developer  ·  Systems &amp; Product Builder  ·  @JontCont
-    </text>
-
-    <!-- Subtle Bottom Pills -->
-    <g transform="translate(36, 154)">
-      <rect x="0" y="0" width="88" height="22" rx="6" fill="#1F2937" stroke="#30363D" stroke-width="1"/>
-      <text x="44" y="14.5" text-anchor="middle" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">TypeScript</text>
-
-      <rect x="96" y="0" width="66" height="22" rx="6" fill="#1F2937" stroke="#30363D" stroke-width="1"/>
-      <text x="129" y="14.5" text-anchor="middle" fill="#C4B5FD" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">Python</text>
-
-      <rect x="170" y="0" width="84" height="22" rx="6" fill="#1F2937" stroke="#30363D" stroke-width="1"/>
-      <text x="212" y="14.5" text-anchor="middle" fill="#6EE7B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">Cloud &amp; DX</text>
+    <!-- Left Glowing Planet -->
+    <g transform="translate(152, 164)">
+      <circle cx="0" cy="0" r="40" fill="url(#planetLeft)" filter="url(#softGlow)" opacity="0.92"/>
+      <ellipse cx="0" cy="0" rx="64" ry="13" transform="rotate(-14)" stroke="#A5F3FC" stroke-width="2" stroke-opacity="0.75" fill="none"/>
     </g>
+
+    <!-- Right Ringed Planet -->
+    <g transform="translate(778, 86)">
+      <circle cx="0" cy="0" r="30" fill="url(#planetRight)" filter="url(#softGlow)" opacity="0.9"/>
+      <ellipse cx="0" cy="0" rx="54" ry="12" transform="rotate(-18)" stroke="url(#ringGrad)" stroke-width="2.2" fill="none"/>
+    </g>
+
+    <!-- Neon Decorative Accents -->
+    <!-- Sparkle near Title -->
+    <g transform="translate(278, 74)" filter="url(#neonGlow)">
+      <path d="M0 -14 L3 -3 L14 0 L3 3 L0 14 L-3 3 L-14 0 L-3 -3 Z" fill="#E0F2FE"/>
+    </g>
+
+    <!-- Floating Code Bracket Icon (Left) -->
+    <g transform="translate(62, 102) rotate(-12)" filter="url(#neonGlow)" opacity="0.85">
+      <rect x="-18" y="-14" width="36" height="28" rx="7" stroke="#F472B6" stroke-width="2" fill="#1E1B4B" fill-opacity="0.5"/>
+      <text x="0" y="5" text-anchor="middle" fill="#F9A8D4" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="700">&lt;/&gt;</text>
+    </g>
+
+    <!-- Floating Terminal Pill (Right) -->
+    <g transform="translate(822, 186) rotate(8)" filter="url(#neonGlow)" opacity="0.88">
+      <rect x="-24" y="-15" width="48" height="30" rx="8" stroke="#38BDF8" stroke-width="2" fill="#0F172A" fill-opacity="0.65"/>
+      <text x="0" y="5" text-anchor="middle" fill="#7DD3FC" font-family="ui-monospace, Menlo, monospace" font-size="13" font-weight="700">&gt;_</text>
+    </g>
+
+    <!-- Main Glowing Title -->
+    <text x="450" y="96" text-anchor="middle" fill="#FFFFFF" filter="url(#neonGlow)"
+          font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
+          font-size="52" font-weight="800" letter-spacing="3">
+      JOHN CONTE
+    </text>
+
+    <!-- Script / Italic Subtitle -->
+    <text x="450" y="130" text-anchor="middle" fill="#E9D5FF"
+          font-family="'Segoe Script', 'Brush Script MT', Georgia, serif"
+          font-style="italic" font-size="22" font-weight="400" letter-spacing="1.5">
+      Software Developer  ·  @JontCont
+    </text>
+
+    <!-- Spaced Role Tagline -->
+    <text x="450" y="168" text-anchor="middle" fill="#E0F2FE"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+          font-size="13.5" font-weight="600" letter-spacing="2.8">
+      FULL-STACK  |  CLOUD &amp; DX  |  AI WORKFLOWS
+    </text>
   </g>
-
-  <!-- Outer Border -->
-  <rect x="1" y="1" width="858" height="198" rx="16" stroke="#30363D" stroke-width="1.2"/>
 </svg>
